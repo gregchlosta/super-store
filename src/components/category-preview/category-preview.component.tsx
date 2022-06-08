@@ -1,5 +1,5 @@
 import { FC } from 'react'
-import { CategoryItem } from '../../store/categories/category.types'
+import { CategoryItem } from '../../store/categories/category.model'
 import ProductCard from '../product-card/product-card.component'
 
 import {

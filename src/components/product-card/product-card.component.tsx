@@ -12,7 +12,7 @@ import {
   Name,
   Price,
 } from './product-card.styles'
-import { CategoryItem } from '../../store/categories/category.types'
+import { CategoryItem } from '../../store/categories/category.model'
 
 export type ProductCardProps = {
   product: CategoryItem

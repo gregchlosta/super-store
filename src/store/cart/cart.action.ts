@@ -1,4 +1,4 @@
-import { CategoryItem } from '../categories/category.types'
+import { CategoryItem } from '../categories/category.model'
 import { CART_ACTION_TYPES, CartItem } from './cart.types'
 import {
   createAction,

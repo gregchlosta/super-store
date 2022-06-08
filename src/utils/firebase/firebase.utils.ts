@@ -23,7 +23,7 @@ import {
   QueryDocumentSnapshot,
 } from 'firebase/firestore'
 
-import { Category } from '../../store/categories/category.types'
+import { Category } from '../../store/categories/category.model'
 
 const firebaseConfig = {
   apiKey: 'AIzaSyBe4-Ul0BLXE2Zptc9RHv1VkVhCoKQ4wDE',
