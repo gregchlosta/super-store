@@ -1,5 +1,5 @@
 import { FC } from 'react'
-import { CartItem as CartItemType } from '../../store/cart/cart.types'
+import { CartItem as CartItemType } from '../../store/cart/cart.model'
 import { CartItemContainer, ItemDetails } from './cart-item.styles'
 
 export type CartItemProps = {
