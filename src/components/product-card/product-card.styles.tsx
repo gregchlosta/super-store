@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 export const ProductCartContainer = styled.div`
   width: 100%;
@@ -33,7 +33,20 @@ export const ProductCartContainer = styled.div`
       display: flex;
     }
   }
-`;
+
+  @media screen and (max-width: 800px) {
+    width: 40vw;
+
+    &:hover {
+      .image {
+        opacity: unset;
+      }
+      button {
+        opacity: unset;
+      }
+    }
+  }
+`
 
 export const Footer = styled.div`
   width: 100%;
@@ -41,13 +54,13 @@ export const Footer = styled.div`
   display: flex;
   justify-content: space-between;
   font-size: 18px;
-`;
+`
 
 export const Name = styled.span`
   width: 90%;
   margin-bottom: 15px;
-`;
+`
 
 export const Price = styled.span`
   width: 10%;
-`;
+`
